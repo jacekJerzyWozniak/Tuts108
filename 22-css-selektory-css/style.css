@@ -1,0 +1,15 @@
+p {
+
+    color: rgb(111, 222, 0);
+}
+
+
+h1,
+h3 {
+
+    background-color: rgb(23, 130, 220);
+}
+
+h1+h3 {
+    color: #f2ad44;
+}
