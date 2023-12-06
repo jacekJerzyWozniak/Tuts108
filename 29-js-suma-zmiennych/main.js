@@ -1,41 +1,17 @@
 
 
-// proszę mi napisać dlaczego ten pierwszy kod działa, a ten drugi już nie. Namęczyłem się jak cholera i w ogóle to chyba przez przypadek udało mnie się poprawnie wykonać to zadanie. Kod drugi, zaczynający się w linii 26, jest dokładnie napisany tak jak w zadaniu #48164, ale za chiny ludowe nie mogę go ruszyć, w konsoli wyskakuje NaN :/... Kod pierwszy również nie działa kiedy w linii 8 i 9 dodam "let" przed nazwami. Proszę mi to wytłumaczyć
+let zmienna1 = 93;
+let zmienna2 = 16;
 
+function add(numer1, numer2) {
 
-function add(firstNumber, secondNumber) {
+    return numer1 + numer2;
 
-    firstNumber = 32;
-    secondNumber = 404;
-
-
-    let suma = firstNumber + secondNumber;
-
-    return suma;
 }
 
-
-console.log(add());
-
+console.log(add(zmienna1, zmienna2));
 
 
-
-
-
-
-// let firstNumber = 32;
-// let secondNumber = 404;
-
-// function add(firstNumber, secondNumber) {
-
-
-//     let suma = firstNumber + secondNumber;
-
-//     return suma;
-// }
-
-
-// console.log(add());
 
 
 
