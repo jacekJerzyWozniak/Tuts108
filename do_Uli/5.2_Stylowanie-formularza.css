@@ -1,0 +1,70 @@
+* {
+    background-color: #213b50;
+    color: #fff;
+    font-size: 1rem;
+    /* ten font-size jest tylko po to żeby troszkę powiększyć to wszystko. I tak już czcionka się nie zgadza - font-family jest inny */
+}
+
+
+input,
+textarea {
+    background-color: #2b4a64;
+    display: block;
+    margin-left: 5px;
+}
+
+input:focus textarea:focus {
+    background-color: #4e708c;
+    border-color: #fff;
+}
+
+
+
+input[type="submit"]:hover {
+    background-color: #46e881;
+
+}
+
+label,
+p {
+    margin-left: 5px;
+
+}
+
+
+input[type="submit"] {
+    background-color: #1ac056;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+
+}
+
+input[value="male"],
+input[value="female"] {
+    display: inline;
+}
+
+select {
+    display: block;
+}
+
+input[type="checkbox"] {
+    display: inline;
+}
+
+/* label[for="city"] {
+    margin-bottom: 5px;
+} */
+
+
+
+/* Domyślam się że w tym zadaniu plik HTML miał być nieruszany */
+
+
+
+/* Kilka pytań....
+
+jak sprawić aby odstępy między label a input można kontrolować? Linia 56-58 niestety nie działa. Jak powiększyć pola input? One nie są wielkościowo podobne do tych pól z szablonu? Jak sprawić aby pole "Wyrażam zgodę...." było zaznaczone? W HTML wystaczy dodać "checked", ale jak to zrobić w CSS? I to samo pytanie dotyczące input type="radio". W Waszym przykłazie zaznaczony jest na starcie "Mężczyzna". Jak napisać CSS aby pole Nazwisko było na starcie podświetlone, jak ma to miejsce w przykładzie przez Was podanym? Nad czcionką nie siedziałem bo nie mam głowy do czcionek, wiem że jest inna ale za cholerę nie dojdę jaka to xD */
+
+/* Chciałem odzwierciedlić 1:1 to zadanie domowe, ale chyba mi się nie uda. I tutaj kolejne pytanie. Czy w ogóle jest możliwe zrobienie tego szablonu, IDENTYCZNIE jak w Waszym przykładzie bez ingerencji w HTML'a? */

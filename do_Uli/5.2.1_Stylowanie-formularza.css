@@ -1,0 +1,30 @@
+* {
+    background-color: #213b50;
+    color: #fff;
+
+}
+
+
+input,
+textarea {
+    background-color: #2b4a64;
+
+}
+
+input:focus,
+textarea:focus {
+    background-color: #4e708c;
+    border-color: #fff;
+}
+
+input[type="submit"] {
+
+
+    background-color: #1ac056;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #46e881;
+
+}
