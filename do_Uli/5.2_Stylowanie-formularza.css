@@ -1,7 +1,8 @@
-* {
+form {
     background-color: #213b50;
     color: #fff;
-    font-size: 1rem;
+    width: 500px;
+    padding: 15px 10px;
     /* ten font-size jest tylko po to żeby troszkę powiększyć to wszystko. I tak już czcionka się nie zgadza - font-family jest inny */
 }
 
@@ -11,9 +12,13 @@ textarea {
     background-color: #2b4a64;
     display: block;
     margin-left: 5px;
+    width: 300px;
+    height: 25px;
+    margin-top: 10px;
 }
 
-input:focus textarea:focus {
+input:focus,
+textarea:focus {
     background-color: #4e708c;
     border-color: #fff;
 }
@@ -25,10 +30,8 @@ input[type="submit"]:hover {
 
 }
 
-label,
-p {
-    margin-left: 5px;
-
+label {
+    margin: 5px;
 }
 
 
@@ -37,21 +40,45 @@ input[type="submit"] {
     margin-top: 15px;
     padding: 10px 20px;
     text-transform: uppercase;
+    width: auto;
+    height: 40px;
+    font-weight: 700;
+    color: white;
 
 }
 
 input[value="male"],
 input[value="female"] {
-    display: inline;
+    display: inline-block;
+    width: 15px;
+    margin-top: 6px;
+    padding-top: 10px;
+    height: 15px;
 }
 
-select {
+#city {
     display: block;
+    width: 300px;
+    height: 25px;
+    margin-left: 5px;
+    background-color: #2b4a64;
+    color: #fff;
+    border: none;
+    appearance: none;
+    padding-left: 10px;
+
 }
 
 input[type="checkbox"] {
-    display: inline;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+
+
+
 }
+
+
 
 /* label[for="city"] {
     margin-bottom: 5px;
