@@ -3,7 +3,7 @@ form {
     color: #fff;
     width: 500px;
     padding: 15px 10px;
-    /* ten font-size jest tylko po to żeby troszkę powiększyć to wszystko. I tak już czcionka się nie zgadza - font-family jest inny */
+
 }
 
 
@@ -15,6 +15,12 @@ textarea {
     width: 300px;
     height: 25px;
     margin-top: 10px;
+}
+
+textarea {
+
+    height: 90px;
+    border: none;
 }
 
 input:focus,
@@ -38,17 +44,19 @@ label {
 input[type="submit"] {
     background-color: #1ac056;
     margin-top: 15px;
-    padding: 10px 20px;
+    padding: 0 23px;
     text-transform: uppercase;
     width: auto;
-    height: 40px;
+    height: 36px;
     font-weight: 700;
     color: white;
+    border: none;
+    font-size: 0.8rem;
 
 }
 
-input[value="male"],
-input[value="female"] {
+input[value$="male"],
+input[type="checkbox"] {
     display: inline-block;
     width: 15px;
     margin-top: 6px;
@@ -59,39 +67,18 @@ input[value="female"] {
 #city {
     display: block;
     width: 300px;
-    height: 25px;
+    height: 35px;
     margin-left: 5px;
     background-color: #2b4a64;
     color: #fff;
     border: none;
     appearance: none;
-    padding-left: 10px;
+    padding-left: 5px;
+    margin-top: 10px;
+    font-size: 14px;
 
 }
 
-input[type="checkbox"] {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-
-
-
+p {
+    margin: 2px 5px;
 }
-
-
-
-/* label[for="city"] {
-    margin-bottom: 5px;
-} */
-
-
-
-/* Domyślam się że w tym zadaniu plik HTML miał być nieruszany */
-
-
-
-/* Kilka pytań....
-
-jak sprawić aby odstępy między label a input można kontrolować? Linia 56-58 niestety nie działa. Jak powiększyć pola input? One nie są wielkościowo podobne do tych pól z szablonu? Jak sprawić aby pole "Wyrażam zgodę...." było zaznaczone? W HTML wystaczy dodać "checked", ale jak to zrobić w CSS? I to samo pytanie dotyczące input type="radio". W Waszym przykłazie zaznaczony jest na starcie "Mężczyzna". Jak napisać CSS aby pole Nazwisko było na starcie podświetlone, jak ma to miejsce w przykładzie przez Was podanym? Nad czcionką nie siedziałem bo nie mam głowy do czcionek, wiem że jest inna ale za cholerę nie dojdę jaka to xD */
-
-/* Chciałem odzwierciedlić 1:1 to zadanie domowe, ale chyba mi się nie uda. I tutaj kolejne pytanie. Czy w ogóle jest możliwe zrobienie tego szablonu, IDENTYCZNIE jak w Waszym przykładzie bez ingerencji w HTML'a? */
