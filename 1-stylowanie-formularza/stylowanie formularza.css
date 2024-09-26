@@ -1,0 +1,80 @@
+form {
+    background-color: #213b50;
+    color: white;
+    width: 650px;
+    padding: 15px;
+}
+
+
+label {
+    display: block;
+}
+
+
+label[for="agreement"],
+label[for*="male"] {
+    display: inline;
+    margin-left: 5px;
+}
+
+input,
+textarea,
+select {
+    background-color: #2b4a64;
+    display: block;
+    border: 1px solid #2b4a64;
+    width: 50%;
+    margin-top: 5px;
+    padding: 7px;
+    font-size: 14px;
+    color: white;
+}
+
+input[id*="male"],
+input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+
+
+input:hover,
+select:hover,
+textarea:hover {
+    background-color: #4e708c;
+    border: 1px solid #fff;
+    color: white;
+
+}
+
+
+input[type="submit"] {
+    background-color: #1ac056;
+    width: auto;
+    border: 1px solid #1ac056;
+    padding: 10px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #46e881;
+    border: 1px solid #46e881;
+
+}
+
+p {
+    margin: 5px 0;
+}
+
+#city {
+    height: 27px;
+    width: 52%;
+    color: white;
+    font-size: 16px;
+}
+
+textarea {
+    height: 55px;
+}
