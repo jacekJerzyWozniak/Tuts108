@@ -1,0 +1,24 @@
+#box {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    transition: all 2s ease-in;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: blue;
+}
+
+.three {
+    background-color: green;
+}
+
+.one:hover {
+    background-color: aquamarine;
+    width: 300px;
+
+}
